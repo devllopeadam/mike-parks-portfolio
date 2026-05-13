@@ -6,6 +6,10 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const contactInfo = {
+  email: "parksmike@dwx.com",
+};
+
 export const gridItems = [
   {
     id: 1,
@@ -29,8 +33,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "WordPress, Webflow, Wix, Squarespace, React, Next.js, PHP, SEO",
-    description: "CMS platforms and modern web delivery",
+    title: "WordPress, Webflow, Wix, Squarespace, React",
+    description: "CMS platforms and modern web",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",

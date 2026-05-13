@@ -151,6 +151,7 @@ export const educationItems: ShowcaseItem[] = [
     ],
     href: "",
     logo: "",
+    image: "/assets/education/college.jpeg",
     tags: [
       { id: 1, name: "Vatterott College" },
       { id: 2, name: "1999.09 - 2003.06" },

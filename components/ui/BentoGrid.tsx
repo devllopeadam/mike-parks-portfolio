@@ -4,6 +4,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "lottie-react";
 
 import { cn } from "@/lib/utils";
+import { contactInfo } from "@/data";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
@@ -67,8 +68,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "ksparth12@gmail.com";
-    navigator.clipboard.writeText(text);
+    navigator.clipboard.writeText(contactInfo.email);
     setCopied(true);
   };
 

@@ -35,7 +35,7 @@ const ShowcaseSection = ({
     <section
       id={sectionId}
       onMouseMove={handleMouseMove}
-      className="relative px-4 sm:px-6 md:px-8 lg:px-10 xl:px-15 min-h-screen mt-20 md:mt-30 max-w-7xl mx-auto"
+      className="relative px-4 sm:px-6 md:px-8 lg:px-10 xl:px-15 mt-16 md:mt-20 max-w-7xl mx-auto"
     >
       <h2 className="font-bold text-3xl md:text-4xl">{title}</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />

@@ -61,10 +61,10 @@ const Home = () => {
         <Hero />
         <Grid />
         <Projects />
+        <EducationSection />
         {/* <RecentProjects /> */}
         <Clients />
         <Experience />
-        <EducationSection />
         <Approach />
         <div ref={footerRef}>
           <Footer />

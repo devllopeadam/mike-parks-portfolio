@@ -1,6 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
-import { socialMedia } from "@/data";
+import { contactInfo, socialMedia } from "@/data";
 import RippleButton from "./RippleButton";
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
           Reach out and let&apos;s talk about WordPress, Webflow, Wix,
           Squarespace, SEO, speed optimization, or custom website improvements.
         </p>
-        <a href="mailto:parksmike@dwx.com">
+        <a href={`mailto:${contactInfo.email}`}>
           <RippleButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
